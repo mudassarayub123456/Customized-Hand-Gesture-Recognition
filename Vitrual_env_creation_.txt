@@ -1,0 +1,27 @@
+# Open cmd and follow the sequence#
+
+E:
+cd handgesture
+
+#create virtualmenvironment with the name siamese  #
+python -m venv siamese  
+
+#Activate virtual environment#
+.\siamese\Scripts\activate
+
+#Install dependencies and add virtual environment to the Python Kernel#
+python -m pip install --upgrade pip # optional
+
+pip install ipykernel
+python -m ipykernel install --name=siamese  
+
+#To check available kernels#
+jupyter kernelspec list
+
+#To remove or install kernel eg siamese#
+jupyter kernelspec uninstall siamese 
+
+#Now run the environment#
+jupyter lab 
+
+jupyter notebook

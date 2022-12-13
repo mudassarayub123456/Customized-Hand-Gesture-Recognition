@@ -1,0 +1,5 @@
+python app_video.py --device video/2.mp4
+python app_video.py --device video/1.mp4
+python app_video.py --device 0
+
+# note for videos recorded with webcam you donot need flip image. however for videos recorde with mobile camera we may flip it.
